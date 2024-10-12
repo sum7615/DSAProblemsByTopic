@@ -7,7 +7,8 @@ public class ReverseBits {
 
 	public static int reverseBit(int num) {
 
-		System.out.println("Recived: " + Integer.toBinaryString(num));
+//		System.out.println("Recived: " + Integer.toBinaryString(num));
+		
 		// manually printing all bits
 
 		/*
@@ -27,7 +28,6 @@ public class ReverseBits {
 				num ^= (1 << i);
 				num ^= (1 << (31 - i));
 			}
-			System.out.println("B: " + Integer.toBinaryString(num));
 		}
 
 		return num;
